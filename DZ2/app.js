@@ -5,20 +5,20 @@
 //         continue
 //     }
 // }
-// let objSinema = {
-//     janr: {
-//         name: "comedy",
-//         actors:["Tom Cruise", "Will Smith"],
-//     },
-//     date:{
-//         day:"01.01.2020",
-//         time:"two hours and 30 minutes",
-//     },
-//     tickets:{
-//         price: ["10$","15$"],
-//         measurement:["2D","3D"]
-//     }
-// }
+let objSinema = {
+    janr: {
+        name: "comedy",
+        actors:["Tom Cruise", "Will Smith"],
+    },
+    date:{
+        day:"01.01.2020",
+        time:"two hours and 30 minutes",
+    },
+    tickets:{
+        price: ["10$","15$"],
+        measurement:["2D","3D"]
+    }
+}
 let num = prompt("Введите число от 1 до 15")
 switch (num) {
     case "1":

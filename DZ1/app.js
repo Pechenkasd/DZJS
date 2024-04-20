@@ -17,12 +17,12 @@
 // if (name[0].toLowerCase() || surname[0].toLowerCase()) {
 //     console.log('Здравствуйте, ' + name[0].toUpperCase() + name.slice(1) + ' ' + surname[0].toUpperCase() + surname.slice(1))
 // }
-Svetofor
-let svetofor = prompt('Светофор');
-if (svetofor === 'Красный') {
-    console.log('Стой!!!');
-} else if (svetofor === 'yellow') {
-    console.log('Жди!!!');
-} else if (svetofor === 'green') {
-    console.log('Вперед!!!');
-}
+// Svetofor
+// let svetofor = prompt('Светофор');
+// if (svetofor === 'Красный') {
+//     console.log('Стой!!!');
+// } else if (svetofor === 'yellow') {
+//     console.log('Жди!!!');
+// } else if (svetofor === 'green') {
+//     console.log('Вперед!!!');
+// }
