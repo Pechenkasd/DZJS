@@ -15,12 +15,12 @@ function sortInitial(surname, name, patronymic) {
     return Initcial
 }
 console.log(sortInitial('Kushparenko', 'Ioann', 'Konstantinovich'))
-function getNameBook(arr) {
-    let arr1 = arr.filter((book) => book.toLowerCase().includes('y'))
-    let arr2 = arr.filter((book) => !book.toLowerCase().includes('y'))
-    return console.log(arr1, arr2)
-}
-getNameBook('Chehow', 'Dostoevsky', 'Tolstyi', 'Pushkin', 'Esenin')
+// function getNameBook(arr) {
+//     let arr1 = arr.filter((book) => book.toLowerCase().includes('y'))
+//     let arr2 = arr.filter((book) => !book.toLowerCase().includes('y'))
+//     return console.log(arr1, arr2)
+// }
+// getNameBook('Chehow', 'Dostoevsky', 'Tolstyi', 'Pushkin', 'Esenin')
 let users = {
     usersArray: [
         { name: 'Jonn', birthDate: '2000-11-23' },
